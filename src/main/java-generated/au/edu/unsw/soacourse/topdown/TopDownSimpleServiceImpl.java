@@ -127,7 +127,7 @@ public class TopDownSimpleServiceImpl implements TopDownSimpleService {
 		}// try
 
 		catch (Exception e) {
-
+			e.printStackTrace();
 		}
 
 		ImportMarketDataResponse res = factory.createImportMarketDataResponse();
